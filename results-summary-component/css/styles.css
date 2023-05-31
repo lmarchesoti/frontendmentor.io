@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 200px auto;
+  width: 736px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  border-radius: 30px;
+
+  box-shadow: 10px 10px 150px hsla(224, 30%, 27%, 0.3);
+}
+
+/* YOUR RESULT CARD */
+.your-result {
+  background: linear-gradient(hsla(252, 100%, 67%), hsla(241, 81%, 54%));
+  border-radius: 30px;
+  padding: 28px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: hsla(241, 100%, 89%, 0.95);
+  margin: 10px auto 11px;
+  letter-spacing: 0.06rem;
+}
+
+.score-circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 0.8), hsla(241, 72%, 46%, 0));
+  width: 200px;
+  height: 200px;
+  margin: 35px auto 27px;
+  border-radius: 100px;
+  padding: 46px;
+  color: hsla(241, 100%, 89%, 0.5);
+}
+
+.user-score {
+  display: block;
+  font-size: 68px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: -4px;
+}
+
+.score-headline {
+  font-size: 32px;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+
+.score-description {
+  margin: 15px auto 27px;
+  width: 260px;
+  color: hsla(241, 100%, 89%, 0.9);
+}
+
+/* SUMMARY CARD */
+.summary {
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: hsla(256, 100%, 0%, 0.8);
+  margin: 10px auto 33px;
+  line-height: 1em;
+}
+
+.user-test-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 45px;
+}
+
+.test-score-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 16px;
+  border-radius: 10px;
+  /* line-height: 1em; */
+}
+
+img {
+  margin-right: 12px;
+  vertical-align: text-top;
+}
+
+#reaction {
+  color: hsla(0, 100%, 67%, 1);
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+#memory {
+  color: hsla(39, 100%, 56%, 1);
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+#verbal {
+  color: hsla(166, 100%, 37%, 1);
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+#visual {
+  color: hsla(234, 85%, 45%, 1);
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+.score-item-result {
+  font-weight: 700;
+  color: hsla(256, 100%, 0%, 0.4);
+}
+
+.user-score-item {
+  color: hsla(256, 100%, 0%, 0.8);
+  margin-right: 4px;
+}
+
+.btn-continue {
+  width: 100%;
+  padding: 16px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+
+  color: white;
+}
