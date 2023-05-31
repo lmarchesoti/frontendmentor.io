@@ -5,92 +5,94 @@
 }
 
 main {
-  margin: 200px auto;
-  width: 736px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 0 auto 10px;
+  width: 375px;
   font-family: "Hanken Grotesk", sans-serif;
-  font-size: 18px;
-  border-radius: 30px;
-
-  box-shadow: 10px 10px 150px hsla(224, 30%, 27%, 0.3);
+  font-size: 16px;
 }
 
 /* YOUR RESULT CARD */
 .your-result {
   background: linear-gradient(hsla(252, 100%, 67%), hsla(241, 81%, 54%));
-  border-radius: 30px;
-  padding: 28px;
+  border-radius: 0 0 32px 32px;
+  padding: 25px;
   text-align: center;
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
   color: hsla(241, 100%, 89%, 0.95);
-  margin: 10px auto 11px;
+  margin: 0 auto;
   letter-spacing: 0.06rem;
-  margin-left: -4px;
 }
 
+/* CIRCLE */
 .score-circle {
   background: linear-gradient(hsla(256, 72%, 46%, 0.8), hsla(241, 72%, 46%, 0));
-  width: 200px;
-  height: 200px;
-  margin: 35px auto 29px;
+  width: 140px;
+  height: 140px;
+  margin: 25px auto 22px;
   border-radius: 100px;
-  padding: 47px;
+  padding: 26px;
   color: hsla(241, 100%, 89%, 0.5);
 }
 
 .user-score {
   display: block;
-  font-size: 68px;
-  font-weight: 800;
+  font-size: 56px;
+  font-weight: 700;
   color: hsl(0, 0%, 100%);
-  margin-bottom: -4px;
+  margin-bottom: -2px;
 }
 
+/* DESCRIPTION */
 .score-headline {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
   color: hsla(0, 0%, 100%, 0.9);
+  letter-spacing: 0.01rem;
+  margin-left: -4px;
 }
 
 .score-description {
-  margin: 15px auto 27px;
-  width: 260px;
+  font-size: 16px;
+  margin: 10px auto 15px;
+  width: 280px;
   color: hsla(241, 100%, 89%, 0.9);
 }
 
 /* SUMMARY CARD */
 .summary {
   border-radius: 20px;
-  padding: 30px 40px;
+  padding: 16px 30px 8px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   color: hsla(256, 100%, 0%, 0.8);
-  margin: 14px auto 33px;
-  line-height: 1.2rem;
+  margin: 10px auto 28px;
+  line-height: 1em;
+  margin-left: 2px;
 }
 
+/* SCORE DETAILS */
 .user-test-scores {
   display: flex;
   flex-direction: column;
   gap: 17px;
-  margin-bottom: 41px;
+  margin-bottom: 24px;
 }
 
 .test-score-item {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  padding: 16px;
-  border-radius: 10px;
-  line-height: 1.47rem;
+  padding: 17px;
+
+  font-size: 16px;
+  border-radius: 15px;
 }
 
 img {
@@ -128,9 +130,10 @@ img {
   margin-right: 4px;
 }
 
+/* BUTTON */
 .btn-continue {
   width: 100%;
-  padding: 17px;
+  padding: 16px;
   border-radius: 30px;
   border: none;
   background-color: hsl(224, 30%, 27%);
@@ -145,6 +148,7 @@ img {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+/* FOOTER */
 footer {
   margin-bottom: 24px;
 }
