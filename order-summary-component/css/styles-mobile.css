@@ -72,9 +72,9 @@ p {
   flex-direction: column;
 }
 
-.order-music-icon {
-  float: left;
-  margin-right: 20px;
+.order-plan-box {
+  display: flex;
+  gap: 20px;
 }
 
 .order-plan-name {
@@ -114,6 +114,7 @@ p {
   border-radius: 11px;
   margin-bottom: 24px;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 19%);
+  border: none;
 }
 
 .order-btn-proceed:hover {
