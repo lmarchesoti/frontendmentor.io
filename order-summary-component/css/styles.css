@@ -57,6 +57,7 @@ p {
   color: hsl(224, 23%, 55%);
   line-height: 1.625rem;
   margin-bottom: 20px;
+  letter-spacing: 0.01rem;
 }
 
 .order-plan {
