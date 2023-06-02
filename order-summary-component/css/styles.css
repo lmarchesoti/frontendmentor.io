@@ -15,10 +15,14 @@
 
 body {
   width: 1440px;
+  height: 100vh;
   background-image: url("../images/pattern-background-desktop.svg");
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
   font-family: "Red Hat Display", sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: end;
 }
 
 p {
@@ -27,7 +31,6 @@ p {
 
 .card {
   width: 450px;
-  margin: 100px auto;
   background-color: white;
   border-radius: 20px;
   text-align: center;
@@ -138,5 +141,5 @@ p {
 }
 
 footer {
-  margin: 24px auto;
+  margin-bottom: 14px;
 }
