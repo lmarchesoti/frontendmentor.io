@@ -235,10 +235,16 @@ footer {
   margin: 0 auto 32px;
 }
 
-.footer-bg {
+.footer-bg-mobile {
   position: absolute;
   top: 0;
-  left: -220%;
-  height: 100%;
+  left: 0;
   opacity: 0.1;
+  width: 100%;
+  height: auto;
+}
+
+.footer-bg-desktop,
+.footer-bg-tablet {
+  display: none;
 }

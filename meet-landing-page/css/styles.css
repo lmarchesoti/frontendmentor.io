@@ -252,11 +252,16 @@ footer {
   background-size: cover;
 } */
 
-.footer-bg {
+.footer-bg-desktop {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0.1;
   width: 100%;
   height: auto;
+}
+
+.footer-bg-tablet,
+.footer-bg-mobile {
+  display: none;
 }
