@@ -7,3 +7,4 @@ Repository for hosting the challenges from http://www.frontendmentor.io/
 [qr-code-component](https://lmarchesoti.github.io/frontendmentor.io/qr-code-component/)
 [results-summary-component](https://lmarchesoti.github.io/frontendmentor.io/results-summary-component/)
 [order-summary-component](https://lmarchesoti.github.io/frontendmentor.io/order-summary-component/)
+[meet-landing-page](https://lmarchesoti.github.io/frontendmentor.io/meet-landing-page/)
