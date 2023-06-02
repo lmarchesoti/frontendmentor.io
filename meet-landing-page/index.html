@@ -18,7 +18,16 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="css/styles.css"
+      media="screen and (min-width: 900px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/styles-tablet.css"
+      media="screen and (max-width: 900px)"
+    />
 
     <title>Frontend Mentor | Meet landing page</title>
   </head>
@@ -30,7 +39,15 @@
         <img
           src="assets/desktop/image-hero-left.png"
           alt="6 portraits in a circular frame"
+          class="image-hero-left"
         />
+
+        <img
+          src="assets/desktop/image-hero-right.png"
+          alt="6 portraits in a circular frame"
+          class="image-hero-right"
+        />
+
         <div class="banner-content-center">
           <h1>Group Chat for Everyone</h1>
           <p>
@@ -38,17 +55,11 @@
             collaborate across any device.
           </p>
 
-          <button class="button-1">
+          <button class="button-1 download-button">
             Download <span class="version-number-1">v1.3</span>
           </button>
-          <button class="button-2">What is it?</button>
+          <button class="button-2 describe-button">What is it?</button>
         </div>
-
-        <img
-          src="assets/desktop/image-hero-right.png"
-          alt="6 portraits in a circular frame"
-          class="image-hero-right"
-        />
       </div>
 
       <div class="section-divider section-01">
@@ -108,7 +119,7 @@
             Stay connected with reliable HD meetings and unlimited one-on-one
             and group video sessions.
           </p>
-          <button class="button-2">
+          <button class="button-2 download-button">
             Download <span class="version-number-2">v1.3</span>
           </button>
         </div>

@@ -9,16 +9,15 @@ body {
 }
 
 main {
-  width: 1440px;
+  width: 768x;
   margin: 0 auto;
-  padding-top: 20px;
   text-align: center;
   overflow-x: hidden;
 }
 
 /* STYLES */
 h1 {
-  font-size: 64px;
+  font-size: 48px;
   font-weight: 900;
   line-height: 1em;
   color: #28283d;
@@ -41,7 +40,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   font-weight: 500;
   color: #87879d;
@@ -93,44 +92,38 @@ button {
 
 /* LAYOUT */
 .meet-logo {
-  margin: 60px auto;
+  margin: 48px auto 64px;
 }
 
 /* banner */
 .banner {
-  display: grid;
+  display: flex;
   position: relative;
   width: 110%;
   left: -5%;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  column-gap: 88px;
-  margin-bottom: 110px;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 72px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.banner-content-center {
+  width: 457px;
+  flex-grow: 0;
 }
 
 .banner h1 {
-  margin: 34px 20px;
+  margin-bottom: 24px;
 }
 
 .banner p {
-  margin-bottom: 32px;
-  width: 115%;
+  margin-bottom: 28px;
   position: relative;
-  left: -7.5%;
 }
 
 .banner .button-1 {
   margin-right: 10px;
-}
-
-.banner-content-center {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.image-hero-right {
-  grid-column: 3;
-  align-self: end;
 }
 
 /* section divider */
@@ -164,22 +157,21 @@ button {
 }
 
 .section-01 {
-  margin-bottom: 64px;
+  margin-bottom: 67px;
 }
 
 .section-02 {
   margin-bottom: -23px;
-  /* z-index: -3; */
 }
 
 /* carousel */
 .carousel {
-  width: 1110px;
-  height: 242px;
-  margin: 0 auto 80px;
+  width: 688px;
+  height: 156px;
+  margin: 0 auto 48px;
 
   display: flex;
-  column-gap: 30px;
+  column-gap: 11px;
 }
 
 .carousel-img {
@@ -188,12 +180,13 @@ button {
 
 /* SERVICE DESCRIPTION */
 .service-description {
-  margin-bottom: 72px;
+  margin-bottom: 80px;
 }
 
 .service-description h2 {
   width: 455px;
-  margin: 0 auto 32px;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
 
 .service-description p {
@@ -207,11 +200,13 @@ button {
 
 /* FOOTER */
 footer {
-  height: 308px;
+  height: 428px;
   background-color: #4d96a9;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  padding: 92px 98px 66px;
 
   position: relative;
 }
@@ -221,22 +216,20 @@ footer {
   margin-top: 12px;
   position: relative;
 
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-
-  text-align: left;
+  text-align: center;
 }
 
 .footer-content h2 {
   color: #fafafa;
   width: 350px;
-  margin: 0;
+  margin: 0 auto 32px;
 }
 
 .footer-content p {
+  font-size: 18px;
   color: #fafafa;
-  width: 350px;
+  /* width: 350px;  */
+  margin: 0 auto 40px;
 }
 
 .footer-bg {
