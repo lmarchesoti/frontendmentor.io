@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* STYLES */
+h1 {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1em;
+  color: #28283d;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  color: #28283d;
+
+  width: 455px;
+  margin: 0 auto;
+}
+
+.overline {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 26px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+}
+
+p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #87879d;
+}
+
+button {
+  color: #ffffff;
+  border-radius: 29px;
+  border: none;
+  padding: 16px 31px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button-1 {
+  background-color: #4d96a9;
+}
+
+.button-2 {
+  background-color: #855fb1;
+}
+
+.button-1:hover {
+  background-color: #71c0d4;
+}
+
+.button-2:hover {
+  background-color: #b18bdd;
+}
+
+.version-number-1 {
+  color: #8fe3f9;
+}
+
+.version-number-2 {
+  color: #d9b8ff;
+}
+
+/* LAYOUT */
+.meet-logo {
+  margin: 60px auto;
+}
+
+/* banner */
+.banner {
+  display: grid;
+  position: relative;
+  width: 110%;
+  left: -5%;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  column-gap: 88px;
+  margin-bottom: 110px;
+}
+
+.banner h1 {
+  margin: 34px 20px;
+}
+
+.banner p {
+  margin-bottom: 32px;
+  width: 115%;
+  position: relative;
+  left: -7.5%;
+}
+
+.banner .button-1 {
+  margin-right: 10px;
+}
+
+.image-hero-right {
+  align-self: end;
+}
+
+/* section divider */
+.section-divider {
+  width: 56px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-rule {
+  width: 0px;
+  height: 84px;
+  margin: 0 auto;
+  border: 1px solid #87879d;
+  opacity: 25%;
+}
+
+.section-number {
+  font-size: 16px;
+  font-weight: 900;
+  border: 1px solid #87879d;
+  border-radius: 56px;
+  opacity: 25%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-01 {
+  margin-bottom: 64px;
+}
+
+.section-02 {
+  margin-bottom: -23px;
+  /* z-index: -3; */
+}
+
+/* carousel */
+.carousel {
+  width: 1110px;
+  height: 242px;
+  margin: 0 auto 80px;
+
+  display: flex;
+  column-gap: 30px;
+}
+
+.carousel-img {
+  border-radius: 8px;
+}
+
+/* SERVICE DESCRIPTION */
+.service-description h2 {
+  margin-bottom: 32px;
+}
+
+.service-description p {
+  width: 520px;
+  margin: 0 auto 72px;
+}
+
+.service-description .overline {
+  margin-bottom: 16px;
+}
+
+/* FOOTER */
+footer {
+  height: 308px;
+  background-color: #4d96a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.footer-content {
+  width: 1110px;
+  margin-top: 12px;
+  position: relative;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  text-align: left;
+}
+
+.footer-content h2 {
+  color: #fafafa;
+  width: 350px;
+  margin: 0;
+}
+
+.footer-content p {
+  color: #fafafa;
+  width: 350px;
+}
+
+.footer-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.1;
+  width: 100%;
+  height: auto;
+}
