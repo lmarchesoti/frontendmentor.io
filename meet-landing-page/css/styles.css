@@ -191,7 +191,7 @@ button {
 }
 
 .service-description h2 {
-  width: 455px;
+  width: 430px;
   margin: 0 auto 32px;
 }
 
@@ -217,7 +217,7 @@ footer {
 
 .footer-content {
   width: 1110px;
-  margin-top: 12px;
+  /* margin-top: 12px; */
   position: relative;
 
   display: flex;
