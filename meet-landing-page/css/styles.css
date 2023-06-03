@@ -236,6 +236,7 @@ footer {
 .footer-content p {
   color: #fafafa;
   width: 350px;
+  margin-left: 16.5px;
 }
 
 .footer-content button {
