@@ -221,7 +221,7 @@ footer {
   position: relative;
 
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
 
   text-align: left;
@@ -236,6 +236,10 @@ footer {
 .footer-content p {
   color: #fafafa;
   width: 350px;
+}
+
+.footer-content button {
+  align-self: center;
 }
 
 /* .footer:before {
