@@ -109,7 +109,7 @@ button {
 }
 
 .banner h1 {
-  margin: 34px 20px;
+  margin: 40px 20px 34px;
 }
 
 .banner p {
@@ -126,6 +126,7 @@ button {
 .banner-content-center {
   grid-column: 2;
   grid-row: 1;
+  padding: 7px 0;
 }
 
 .image-hero-right {
