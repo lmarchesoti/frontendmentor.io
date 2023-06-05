@@ -193,7 +193,8 @@ footer {
   }
 
   .star-block {
-    display: inline-block;
+    display: inline-flex;
+    margin-right: 32px;
   }
 
   .rating-item {
@@ -202,6 +203,10 @@ footer {
     padding: 20px 32px;
 
     text-align: left;
+  }
+
+  .rating-text {
+    vertical-align: top;
   }
 
   .rating-item:first-child {
