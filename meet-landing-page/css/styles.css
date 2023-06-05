@@ -141,6 +141,9 @@ button {
 
   display: flex;
   flex-direction: column;
+
+  position: relative;
+  z-index: 1;
 }
 
 .vertical-rule {
@@ -161,6 +164,8 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  background-color: white;
 }
 
 .section-01 {
