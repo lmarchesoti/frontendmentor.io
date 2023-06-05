@@ -28,9 +28,14 @@ main {
   padding: 24px;
 }
 
-.product-image {
+.product-image-mobile {
+  display: block;
   width: 100%;
   border-radius: 10px 10px 0 0;
+}
+
+.product-image-desktop {
+  display: none;
 }
 
 .overline {
@@ -135,7 +140,12 @@ footer {
     flex-direction: row;
   }
 
-  .product-image {
+  .product-image-mobile {
+    display: none;
+  }
+
+  .product-image-desktop {
+    display: block;
     width: 300px;
     border-radius: 10px 0 0 10px;
   }
