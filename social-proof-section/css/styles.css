@@ -96,6 +96,7 @@ h1 {
   padding: 40px 32px 35px;
   background-color: hsl(300, 43%, 22%);
   border-radius: 8px;
+  /* height: 248px; */
 }
 
 .testimonial-item img {
@@ -155,7 +156,7 @@ footer {
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 245px 236px;
+    grid-template-rows: 245px 266px;
 
     column-gap: 125px;
     row-gap: 71px;
@@ -163,13 +164,10 @@ footer {
     align-items: center;
   }
 
-  .testimonial-list {
-    grid-column: 1 / -1;
-  }
-
   .social-proof-header {
     text-align: left;
     margin-bottom: 0;
+    width: 445px;
   }
 
   h1 {
@@ -185,12 +183,10 @@ footer {
   }
 
   .ratings-list {
-    height: 200px;
-
-    align-items: center;
-
+    width: 540px;
     margin-bottom: 0;
 
+    align-items: center;
     vertical-align: middle;
   }
 
@@ -216,9 +212,18 @@ footer {
 
   .testimonial-list {
     height: 100%;
+    grid-column: 1 / -1;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .testimonial-item {
+    /* height: 234px; */
+  }
+
+  .customer-credentials {
+    margin-bottom: 31px;
   }
 
   .testimonial-item:first-child {
