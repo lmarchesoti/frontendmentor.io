@@ -194,7 +194,7 @@ footer {
 
   .star-block {
     display: inline-flex;
-    margin-right: 32px;
+    margin-right: 33px;
   }
 
   .rating-item {
@@ -238,6 +238,6 @@ footer {
   }
 
   .testimonial-text {
-    width: 290px;
+    width: 280px;
   }
 }
