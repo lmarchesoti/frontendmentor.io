@@ -123,6 +123,7 @@ li {
 @media (min-width: 1200px) {
   main {
     width: 100%;
+    margin-top: 177px;
   }
 
   article {
