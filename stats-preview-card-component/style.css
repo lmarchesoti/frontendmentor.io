@@ -62,6 +62,7 @@ img {
   width: 100%;
   border-radius: 8px 8px 0 0;
   mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .card-content {
@@ -106,7 +107,6 @@ li {
   font-size: 24px;
   line-height: 29px;
   font-weight: 700;
-  text-transform: uppercase;
   color: hsl(0, 0%, 100%);
 }
 
