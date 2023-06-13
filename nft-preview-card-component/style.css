@@ -1,0 +1,119 @@
+/* ## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  width: 375px;
+  margin: 62px auto;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 375px;
+  border-radius: 15px;
+  padding: 24px;
+}
+
+.hero {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 12px;
+}
+
+.body-copy {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+
+  margin-bottom: 16px;
+  width: 250px;
+}
+
+.offer-box {
+  font-size: 15px;
+  line-height: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 6.5px;
+}
+
+.price .icon {
+  width: 11px;
+  height: 18px;
+}
+
+.time-left {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+
+  display: flex;
+  align-items: center;
+  gap: 7.5px;
+}
+
+.time-left .icon {
+  width: 16px;
+  height: 16px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+  margin: 16px auto;
+}
+
+.author {
+  color: hsl(215, 51%, 70%);
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.author img {
+  width: 33px;
+  height: 33px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 100%;
+}
+
+.author span {
+  color: hsl(0, 0%, 100%);
+}
