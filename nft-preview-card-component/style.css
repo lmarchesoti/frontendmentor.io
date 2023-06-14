@@ -146,6 +146,7 @@ h1:hover {
 
 hr {
   color: hsl(215, 32%, 27%);
+  background-color: hsl(215, 32%, 27%);
   margin-bottom: 16px;
 }
 
