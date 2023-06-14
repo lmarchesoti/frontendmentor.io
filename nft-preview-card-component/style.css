@@ -178,6 +178,10 @@ hr {
 }
 
 @media (min-width: 900px) {
+  main {
+    margin: 152px auto;
+  }
+
   .card {
     width: 350px;
     padding: 24px 24px 32px;
