@@ -21,6 +21,11 @@
 body {
   font-family: "Outfit", sans-serif;
   background-color: hsl(217, 54%, 11%);
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
 }
 
 main {
@@ -33,16 +38,23 @@ main {
   width: 327px;
   border-radius: 15px;
   padding: 24px;
+  margin: 0 auto;
 }
 
 .hero {
   position: relative;
   margin-bottom: 16px;
+  cursor: pointer;
+  background-color: transparent;
+
+  border: none;
+  border-radius: 8px;
 }
 
 .hero-img {
   width: 100%;
   border-radius: 8px;
+  display: block;
 }
 
 .hero-overlay::before {
