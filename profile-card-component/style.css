@@ -141,4 +141,8 @@ hr {
     width: 350px;
     margin: 173px 0;
   }
+
+  .stats {
+    gap: 46px;
+  }
 }
