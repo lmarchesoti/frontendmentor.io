@@ -1,0 +1,196 @@
+/* ## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+#E6EFF5
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+
+  background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+  width: 311px;
+  margin: 72px auto;
+  box-shadow: 0 15px 30px rgba(0, 81, 171, 0.149);
+}
+
+.header {
+  background-color: hsl(0, 0%, 100%);
+  padding: 28px 24px 32px;
+  border-radius: 5px 5px 0 0;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.25px;
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.1875px;
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  margin-bottom: 16px;
+}
+
+.body-copy {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: -0.175px;
+  font-weight: 400;
+  color: hsl(218, 22%, 67%);
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  padding: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.225px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 18px;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 4px;
+}
+
+.price-value {
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.4px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.price-period {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.5;
+}
+
+.subscription p {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 26px;
+}
+
+.btn-signup {
+  width: 100%;
+  display: block;
+  padding: 15px 102px;
+  border-radius: 5px;
+
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+
+  background-color: hsl(71, 73%, 54%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.097);
+}
+
+.features {
+  background-color: hsl(179, 48%, 52%);
+  padding: 24px;
+}
+
+.feature-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: -3px;
+}
+
+.feature-item {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.175px;
+  color: hsl(0, 0%, 100%);
+  opacity: 0.75;
+}
+
+footer {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 900px) {
+  .card {
+    width: 635px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    border-radius: 5px;
+  }
+
+  .header {
+    grid-column: 1 / -1;
+
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.225px;
+    margin-bottom: 11px;
+  }
+
+  .body-copy {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+  }
+
+  .subscription {
+    padding: 40px;
+  }
+
+  .btn-signup {
+    padding: 15px 89px;
+  }
+
+  .features {
+    padding: 40px;
+  }
+}
