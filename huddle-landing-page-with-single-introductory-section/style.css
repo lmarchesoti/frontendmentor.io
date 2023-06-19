@@ -152,7 +152,7 @@ p {
     position: relative;
 
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap: 59px;
   }
 
@@ -161,17 +161,21 @@ p {
   }
 
   .logo {
-    width: 200px;
+    width: 210px;
     margin: 0;
+    margin-left: -5px;
     margin-bottom: 90px;
   }
 
   .img-mockups {
     width: 100%;
+    margin-left: -5px;
+    margin-top: -5px;
   }
 
   .content {
     width: 520px;
+    margin-top: 180px;
     text-align: left;
   }
 
@@ -206,6 +210,10 @@ p {
     position: absolute;
     right: 65px;
     bottom: 0;
+  }
+
+  .social-icons {
+    gap: 16px;
   }
 
   .social-icon {
