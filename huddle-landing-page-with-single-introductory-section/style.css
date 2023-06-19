@@ -1,0 +1,228 @@
+/* ## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%) */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("images/bg-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% top;
+
+  font-family: "Open Sans", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 120px;
+  margin: 24px 0 67px 40px;
+}
+
+.img-mockups {
+  width: 296px;
+  display: block;
+  margin: 0 auto 60px;
+}
+
+.content {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  margin-bottom: 16px;
+}
+
+p {
+  width: 304px;
+  margin: 0 auto 24px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.btn:link,
+.btn:visited {
+  width: 200px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 11px 75px;
+
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.27);
+
+  margin-bottom: 64px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsl(300, 69%, 71%);
+  color: hsl(0, 0%, 100%);
+}
+
+.social-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10.5px;
+  margin-bottom: 40px;
+}
+
+.social-icon {
+  width: 28px;
+  height: 28px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 14px;
+  height: 14px;
+  stroke: hsl(0, 0%, 100%);
+  fill: hsl(0, 0%, 100%);
+}
+
+.icon-facebook {
+  width: 14px;
+  height: 14px;
+  margin-left: -1.5px;
+}
+
+.icon-twitter {
+  width: 14px;
+  height: 14px;
+  margin-left: 1px;
+}
+
+.icon-instagram {
+  width: 16px;
+  height: 16px;
+  margin-top: -1px;
+  margin-left: 1px;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-image: url("images/bg-desktop.svg");
+    background-position: top left;
+    background-size: contain;
+  }
+
+  main {
+    width: 1440px;
+    height: 800px;
+    margin: 0;
+    padding: 60px 80px 40px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 59px;
+  }
+
+  .hero {
+    width: 696px;
+  }
+
+  .logo {
+    width: 200px;
+    margin: 0;
+    margin-bottom: 90px;
+  }
+
+  .img-mockups {
+    width: 100%;
+  }
+
+  .content {
+    width: 520px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 60px;
+
+    margin-bottom: 24px;
+  }
+
+  p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .btn:link,
+  .btn:visited {
+    margin: 0;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 13px 63px 16px;
+    height: 56px;
+    border-radius: 28px;
+
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+  }
+
+  .social-row {
+    width: auto;
+
+    position: absolute;
+    right: 65px;
+    bottom: 0;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-facebook {
+    margin-left: 1px;
+  }
+
+  .icon-twitter {
+    margin-top: -1px;
+  }
+}
