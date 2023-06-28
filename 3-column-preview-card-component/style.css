@@ -1,0 +1,138 @@
+/* 
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 
+95%) 
+
+## Fonts
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.container {
+  width: 92rem;
+  height: 50rem;
+  margin: 17.1rem auto;
+
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card {
+  color: hsl(0, 0%, 95%);
+  padding: 4.8rem;
+}
+
+.card--sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card--suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card--luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-icon {
+  width: 6.4rem;
+  height: 4rem;
+  margin-bottom: 3.5rem;
+}
+
+.card-heading {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.card-text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+
+  margin-bottom: 8.3rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: block;
+  background-color: hsl(0, 0%, 95%);
+  width: 14.6rem;
+  height: 4.8rem;
+  border-radius: 25px;
+  padding: 1.1rem 3.15rem;
+
+  cursor: pointer;
+
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+
+  transition: all 0.3s;
+}
+
+.btn--sedans:link,
+.btn--sedans:visited {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn--suvs:link,
+.btn--suvs:visited {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn--luxury:link,
+.btn--luxury:visited {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover,
+.btn:active {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px hsl(0, 0%, 95%);
+}
+
+@media (max-width: 62em) {
+  .container {
+    flex-direction: column;
+
+    width: 32.7rem;
+    height: 132.6rem;
+  }
+
+  .card-text {
+    margin-bottom: 2.5rem;
+  }
+}
