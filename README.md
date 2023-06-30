@@ -17,3 +17,4 @@ Repository for hosting the challenges from http://www.frontendmentor.io/
 [single-price-grid-component](https://lmarchesoti.github.io/frontendmentor.io/single-price-grid-component/)  
 [social-proof-section](https://lmarchesoti.github.io/frontendmentor.io/social-proof-section/)  
 [stats-preview-card-component](https://lmarchesoti.github.io/frontendmentor.io/stats-preview-card-component/)
+[skilled-elearning-landing-page](https://lmarchesoti.github.io/frontendmentor.io/skilled-elearning-landing-page/)
