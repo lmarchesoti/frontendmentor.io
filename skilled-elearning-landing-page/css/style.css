@@ -16,7 +16,7 @@
 .hero {
   position: relative;
   padding-top: 14.5rem;
-  height: 75.6rem;
+  height: 72.6rem;
 }
 
 .heading-primary {
@@ -44,9 +44,9 @@
 .hero-img-desktop {
   position: absolute;
   left: 51%;
-  bottom: 7%;
+  bottom: 5.5%;
 
-  width: 96%;
+  width: 95%;
   z-index: -1;
 }
 
