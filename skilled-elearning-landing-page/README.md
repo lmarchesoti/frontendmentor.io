@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-2Y02AShfYV](https://www.frontendmentor.io/solutions/skilled-elearning-landing-page-2Y02AShfYV)
 - Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/skilled-elearning-landing-page/](https://lmarchesoti.github.io/frontendmentor.io/skilled-elearning-landing-page/)
 
 ## My process
