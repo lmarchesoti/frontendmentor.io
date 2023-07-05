@@ -1,7 +1,8 @@
 body {
   background: url("../assets/bg-main-desktop.png") no-repeat,
     linear-gradient(0deg, #fcfaf9, #fcfaf9);
-  background-position: center top -25rem;
+  background-size: 130%;
+  background-position: -28rem -26rem;
 }
 
 .bg-pattern-1 {

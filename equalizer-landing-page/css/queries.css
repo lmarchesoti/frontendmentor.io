@@ -11,6 +11,13 @@
 
 /* Tablet (1024px) */
 @media (max-width: 64em) {
+  body {
+    background: url("../assets/bg-main-tablet.png") no-repeat,
+      linear-gradient(0deg, #fcfaf9, #fcfaf9);
+    background-size: 160%;
+    background-position: -37rem -26rem;
+  }
+
   .bg-pattern-1 {
     position: absolute;
     top: -3.2rem;
@@ -100,7 +107,10 @@
 /* Phone (688px) */
 @media (max-width: 43em) {
   body {
-    background-position: top -58rem right -49rem;
+    background: url("../assets/bg-main-mobile.png") no-repeat,
+      linear-gradient(0deg, #fcfaf9, #fcfaf9);
+    background-size: 180%;
+    background-position: -1rem -33rem;
   }
 
   .container {
