@@ -1,0 +1,152 @@
+body {
+  background: url("../assets/bg-main-desktop.png") no-repeat;
+  background-position: center top -25rem;
+}
+
+.bg-pattern-1 {
+  position: absolute;
+  top: -4rem;
+  right: 0;
+  width: 31.2rem;
+  height: auto;
+}
+
+/* Header */
+.header {
+  padding-top: 6.2rem;
+  padding-bottom: 6.2rem;
+}
+
+.logo {
+  height: 3.2rem;
+  width: auto;
+}
+
+/* Hero */
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.hero-text-box {
+  width: 76%;
+}
+
+.heading-primary {
+  margin-bottom: 4rem;
+}
+
+/* CTA */
+.img-app {
+  width: 31.2rem;
+  height: 64.2rem;
+
+  position: absolute;
+  top: -21.3rem;
+  left: 10.3rem;
+  z-index: 1;
+}
+
+.bg-pattern-2 {
+  position: absolute;
+  top: -4rem;
+  left: 33.7rem;
+}
+
+.cta-container {
+  position: relative;
+  background-color: #191826;
+  border-radius: 1.2rem;
+  height: 60rem;
+  margin-top: 24.1rem;
+  margin-bottom: 11.1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-form {
+  position: absolute;
+  bottom: -11.5rem;
+  right: 9.5rem;
+  z-index: 2;
+
+  background-color: #fa7453;
+  color: #fcfaf9;
+  width: 44.6rem;
+  border-radius: 1.2rem;
+  padding: 5.8rem 5.4rem 4.8rem;
+}
+
+.heading-secondary {
+  margin-bottom: 2.2rem;
+}
+
+.cta-text {
+  margin-bottom: 3.9rem;
+}
+
+.price-box {
+  margin-bottom: 4.6rem;
+}
+
+.btn--ios {
+  margin-bottom: 1.6rem;
+}
+
+.price-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.price {
+  font-size: 6.5rem;
+  line-height: 0.8;
+  font-weight: 700;
+}
+
+.price-period {
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: -0.02rem;
+  font-weight: 400;
+}
+
+/* Footer */
+.footer {
+  padding-top: 9.1rem;
+  padding-bottom: 9.1rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.info-col {
+  grid-column: 2 / 4;
+}
+
+.contact-text {
+  width: 70%;
+}
+
+.social-col {
+  grid-column: 4;
+  align-self: center;
+  justify-self: end;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.social-link:link,
+.social-link:visited {
+  color: #191826;
+  width: 2rem;
+  height: 2rem;
+}
+.social-link:hover,
+.social-link:active {
+  fill: #fa7453;
+}
