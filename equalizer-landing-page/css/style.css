@@ -1,5 +1,6 @@
 body {
-  background: url("../assets/bg-main-desktop.png") no-repeat;
+  background: linear-gradient(0deg, #fcfaf9, #fcfaf9),
+    url("../assets/bg-main-desktop.png") no-repeat;
   background-position: center top -25rem;
 }
 
