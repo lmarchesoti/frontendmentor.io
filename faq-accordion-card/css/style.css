@@ -179,6 +179,10 @@ body {
   margin-right: 1.6rem;
 }
 
+.question-active .icon-arrow-down {
+  transform: scaleY(-1);
+}
+
 .icon-arrow-down {
   width: 1rem;
   height: 0.7rem;
