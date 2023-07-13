@@ -50,10 +50,10 @@ body {
 
 .wrapper {
   position: relative;
-  margin: 8rem auto 8rem;
+  margin: 8rem auto;
 
   max-width: 92rem;
-  min-height: 51rem;
+  height: 51rem;
 }
 
 .card {
@@ -66,9 +66,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  /* padding-top: 6.5rem;
-  padding-bottom: 8.3rem; */
   padding: 6.5rem 2.5rem 8.3rem 0;
+  height: 100%;
 
   overflow: hidden;
 }
@@ -85,6 +84,7 @@ body {
 
 .image-box {
   position: relative;
+  height: 39rem;
 }
 
 .main-img {
@@ -126,6 +126,8 @@ body {
 
 .text-box {
   margin-left: 1.5rem;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 /* Accordion */

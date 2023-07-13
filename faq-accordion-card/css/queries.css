@@ -5,7 +5,8 @@
   }
 
   .wrapper {
-    min-height: 0;
+    height: 53.5rem;
+    margin: 12.9rem auto 8rem;
   }
 
   .card {
@@ -21,6 +22,7 @@
   /* Illustration */
   .image-box {
     width: 100%;
+    height: auto;
   }
 
   .img-mobile {
