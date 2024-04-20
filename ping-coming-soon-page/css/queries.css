@@ -1,0 +1,6 @@
+/* Very small phone (<352px) */
+@media (max-width: 22em) {
+  .container {
+    width: 30rem;
+  }
+}

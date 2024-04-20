@@ -1,0 +1,159 @@
+/* 
+
+COLORS
+
+- Blue: hsl(223, 87%, 63%)
+- Pale Blue: hsl(223, 100%, 88%)
+- Light Red: hsl(354, 100%, 66%)
+- Gray: hsl(0, 0%, 59%)
+- Very Dark Blue: hsl(209, 33%, 12%)
+
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  margin: 8rem auto;
+  width: 32rem;
+}
+
+/* HEADER */
+.main-header {
+  /* margin-top: 5rem; */
+  margin-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.welcome-header {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  line-height: 3.2rem;
+}
+
+.container-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.soon {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
+}
+
+.cta {
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: hsl(209, 33%, 12%);
+}
+
+.subscription-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.email-input {
+  width: 100%;
+  margin: 1rem;
+  border-radius: 100px;
+  border: 1px solid hsl(223, 100%, 88%);
+  height: 4rem;
+  color: hsl(223, 100%, 88%);
+  padding: 0 3.2rem;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.form-submit {
+  width: 100%;
+  margin: 0 1rem;
+  border-radius: 100px;
+  height: 4rem;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  border: none;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+
+  box-shadow: 0 5px 10px 2px hsla(223, 87%, 63%, 23%);
+}
+
+.form-submit:hover,
+.form-submit:active {
+  cursor: pointer;
+}
+
+/* MAIN CONTENT */
+
+.dashboard-illustration {
+  width: 100%;
+  margin-bottom: 12rem;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-icon-container {
+  height: 3.1rem;
+  width: 3.1rem;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(223, 87%, 63%);
+}
+
+.social-icon {
+  height: 60%;
+  fill: currentColor;
+}
+
+.social-icon-container:hover,
+.social-icon-container:active {
+  cursor: pointer;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  border: none;
+}
+
+.copyright {
+  font-size: 1rem;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 3rem;
+}
