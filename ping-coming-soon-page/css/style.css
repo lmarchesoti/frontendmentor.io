@@ -71,6 +71,7 @@ html {
 .email-input {
   width: 100%;
   margin: 1rem;
+  margin-bottom: 0;
   border-radius: 100px;
   border: 1px solid hsl(223, 100%, 88%);
   height: 4rem;
@@ -86,9 +87,31 @@ html {
   outline: none;
 }
 
+.email-error {
+  display: none;
+  color: hsl(354, 100%, 66%);
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 2rem;
+  letter-spacing: 0.13px;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.email-error-active .email-error {
+  display: block;
+}
+
+.email-error-active .email-input {
+  border: 1px solid hsl(354, 100%, 66%);
+  color: hsl(209, 33%, 12%);
+}
+
 .form-submit {
   width: 100%;
   margin: 0 1rem;
+  margin-top: 1rem;
   border-radius: 100px;
   height: 4rem;
   background-color: hsl(223, 87%, 63%);
