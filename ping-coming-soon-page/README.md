@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/ping-coming-soon-page-Z15mbbzHZs](https://www.frontendmentor.io/solutions/ping-coming-soon-page-Z15mbbzHZs)
 - Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/ping-coming-soon-page/](https://lmarchesoti.github.io/frontendmentor.io/ping-coming-soon-page/)
 
 ## My process
