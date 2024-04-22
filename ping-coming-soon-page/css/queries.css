@@ -4,3 +4,70 @@
     width: 30rem;
   }
 }
+
+@media (min-width: 45em) {
+  .container {
+    width: 64rem;
+  }
+
+  .main-header {
+    gap: 4rem;
+    margin-bottom: 9rem;
+    width: 64rem;
+  }
+
+  .logo {
+    width: 9rem;
+  }
+
+  .welcome-header {
+    font-size: 4.8rem;
+    line-height: 6rem;
+  }
+
+  .cta {
+    font-size: 2rem;
+  }
+
+  .subscription-form {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.6rem;
+    width: 63.6rem;
+  }
+
+  .email-wrapper {
+    position: relative;
+  }
+
+  .email-input {
+    height: 5.6rem;
+    margin: 0;
+    width: 42rem;
+  }
+
+  .form-submit {
+    height: 5.6rem;
+    margin: 0;
+  }
+
+  .email-error {
+    position: absolute;
+    left: 3rem;
+    top: 6rem;
+
+    font-size: 1.2rem;
+  }
+
+  .dashboard-illustration {
+    margin-bottom: 7rem;
+  }
+
+  footer {
+    gap: 2.5rem;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+}
