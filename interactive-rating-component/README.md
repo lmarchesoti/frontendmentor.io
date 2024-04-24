@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-fma-LJG_sy](https://www.frontendmentor.io/solutions/interactive-rating-component-fma-LJG_sy)
 - Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/interactive-rating-component/](https://lmarchesoti.github.io/frontendmentor.io/interactive-rating-component/)
 
 ## My process

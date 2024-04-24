@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  margin: 6rem auto;
+  margin: 12rem auto 6rem;
   width: 32.7rem;
   background: linear-gradient(180deg, hsl(215, 20%, 17%), hsl(216, 24%, 12%));
 
