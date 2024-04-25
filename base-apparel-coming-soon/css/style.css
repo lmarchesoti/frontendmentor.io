@@ -1,0 +1,163 @@
+/* 
+
+## COLORS
+
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+## Gradients
+
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) 
+
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo-box {
+  margin: 3.2rem;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.hero-img-box {
+  display: block;
+  background-image: url('../images/hero-mobile.jpg');
+  background-size: cover;
+  background-position: top left;
+  height: 25rem;
+  margin-bottom: 6.4rem;
+}
+
+.container {
+  margin: 0 auto 6.4rem;
+  width: 31rem;
+}
+
+.heading-primary {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+
+  font-size: 4rem;
+  line-height: 4.2rem;
+  letter-spacing: 10.83px;
+}
+
+.heading-primary-first {
+  display: block;
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+.heading-primary-second {
+  display: block;
+  color: hsl(0, 6%, 24%);
+  font-weight: 600;
+}
+
+.body-text {
+  text-align: center;
+  color: hsl(0, 36%, 70%);
+  margin-bottom: 3.2rem;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+.subscription-form {
+  position: relative;
+}
+
+.email-input {
+  width: 100%;
+  height: 4.8rem;
+  padding: 1rem 2.4rem;
+
+  border: 1px solid hsl(0, 36%, 70%);
+  border-radius: 50px;
+
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  color: hsl(0, 36%, 70%);
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.email-input-error {
+  border: 2px solid hsl(0, 93%, 68%);
+  color: hsl(0, 6%, 24%);
+}
+
+.email-error-text {
+  /* display: none; */
+  position: absolute;
+  top: 5.6rem;
+  left: 2.5rem;
+
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: hsl(0, 93%, 68%);
+}
+
+.error-icon {
+  position: absolute;
+  top: 1.3rem;
+  right: 7.2rem;
+  /* display: none; */
+}
+
+.btn-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  height: 4.8rem;
+  width: 6.4rem;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+
+  border: none;
+  border-radius: 50px;
+
+  box-shadow: 0 15px 20px rgb(198, 110, 110, 25%);
+}
+
+.btn-submit:hover,
+.btn-submit:active {
+  cursor: pointer;
+}
+
+.btn-img-box {
+  position: relative;
+}
+
+.btn-img {
+  height: 1.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}

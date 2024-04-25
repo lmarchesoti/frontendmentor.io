@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-box">
+        <img src="images/logo.svg" alt="Logo" class="logo" />
+      </div>
+      <div class="hero-img-box">
+        <!-- <img src="images/hero-mobile.jpg" alt="" class="hero-img" /> -->
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="heading-primary">
+          <span class="heading-primary-first">We're</span>
+          <span class="heading-primary-second">coming</span>
+          <span class="heading-primary-second">soon</span>
+        </h1>
+        <p class="body-text">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form action="" class="subscription-form">
+          <input type="text" class="email-input" placeholder="Email Address" />
+          <img
+            src="images/icon-error.svg"
+            alt="Error icon"
+            class="error-icon hidden"
+          />
+          <button class="btn-submit">
+            <div class="btn-img-box">
+              <img
+                src="images/icon-arrow.svg"
+                alt="Arrow pointing to the right"
+                class="btn-img"
+              />
+            </div>
+          </button>
+          <p class="email-error-text hidden">Please provide a valid email</p>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Lucas Marchesoti Franco</a>.
+      </p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
