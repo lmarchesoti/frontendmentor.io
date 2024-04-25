@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/)
+- Solution URL: [https://www.frontendmentor.io/solutions/base-apparel-coming-soon-kCzw1QwGsm](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-kCzw1QwGsm)
 - Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/base-apparel-coming-soon/](https://lmarchesoti.github.io/frontendmentor.io/base-apparel-coming-soon/)
 
 ## My process
