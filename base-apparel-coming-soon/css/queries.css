@@ -1,3 +1,92 @@
-/* DESKTOP (1008px) */
-@media (min-width: 63em) {
+/* DESKTOP (800px) */
+@media (min-width: 50em) {
+  body {
+    background-image: url('../images/bg-pattern-desktop.svg');
+    background-position: top left;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 0.58fr 0.42fr;
+  }
+
+  .container {
+    position: relative;
+    margin: 7.5rem auto 0;
+    width: 44.5rem;
+  }
+
+  .container-main {
+    text-align: left;
+    width: 100%;
+  }
+
+  .logo-box {
+    margin: 0;
+    margin-bottom: 13.6rem;
+  }
+
+  .logo {
+    width: 15.8rem;
+  }
+
+  .hero-img-box-mobile {
+    display: none;
+  }
+
+  .hero-img-box-desktop {
+    display: block;
+    background-image: url('../images/hero-desktop.jpg');
+    background-size: cover;
+    background-position: top;
+
+    height: 100vh;
+  }
+
+  .heading-primary {
+    font-size: 6.4rem;
+    letter-spacing: 17.32px;
+    margin-bottom: 3.2rem;
+  }
+
+  .heading-primary-first {
+    line-height: 6.4rem;
+  }
+
+  .heading-primary-second {
+    line-height: 7.1rem;
+  }
+
+  .body-text {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    margin-bottom: 4rem;
+  }
+
+  .email-input {
+    height: 5.6rem;
+    font-size: 1.6rem;
+
+    padding: 1.4rem 3.2rem;
+  }
+
+  .btn-submit {
+    width: 10rem;
+    height: 5.6rem;
+  }
+
+  .email-error-text {
+    top: 6rem;
+    left: 3.2rem;
+    line-height: 2.8rem;
+  }
+
+  .error-icon {
+    top: 1.6rem;
+    right: 11.5rem;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 2.4rem;
+    width: 100%;
+  }
 }

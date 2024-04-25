@@ -35,7 +35,7 @@ body {
   width: 10rem;
 }
 
-.hero-img-box {
+.hero-img-box-mobile {
   display: block;
   background-image: url('../images/hero-mobile.jpg');
   background-size: cover;
@@ -44,13 +44,17 @@ body {
   margin-bottom: 6.4rem;
 }
 
-.container {
+.hero-img-box-desktop {
+  display: none;
+}
+
+.container-main {
   margin: 0 auto 6.4rem;
   width: 31rem;
+  text-align: center;
 }
 
 .heading-primary {
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
 
@@ -72,7 +76,6 @@ body {
 }
 
 .body-text {
-  text-align: center;
   color: hsl(0, 36%, 70%);
   margin-bottom: 3.2rem;
 
@@ -121,8 +124,11 @@ body {
 
 .error-icon {
   position: absolute;
-  top: 1.3rem;
+  top: 1.2rem;
   right: 7.2rem;
+
+  width: 2.4rem;
+  height: 2.4rem;
   /* display: none; */
 }
 
@@ -144,6 +150,11 @@ body {
 .btn-submit:hover,
 .btn-submit:active {
   cursor: pointer;
+  /* background-image: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  ); */
 }
 
 .btn-img-box {
