@@ -163,10 +163,6 @@ body {
   box-shadow: 0 15px 20px hsla(0, 44%, 60%, 40%);
 }
 
-.btn-img-box {
-  position: relative;
-}
-
 .btn-img {
   height: 1.8rem;
   position: absolute;
