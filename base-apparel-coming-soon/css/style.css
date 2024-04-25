@@ -119,7 +119,6 @@ body {
 }
 
 .email-error-text {
-  /* display: none; */
   position: absolute;
   top: 5.6rem;
   left: 2.5rem;
@@ -136,7 +135,6 @@ body {
 
   width: 2.4rem;
   height: 2.4rem;
-  /* display: none; */
 }
 
 .btn-submit {
@@ -156,7 +154,6 @@ body {
   border-radius: 50px;
 
   box-shadow: 0 15px 20px hsla(0, 44%, 60%, 25%);
-  /* box-shadow: 0 15px 20px rgb(198, 110, 110, 25%); */
 }
 
 .btn-submit:hover,
