@@ -1,0 +1,31 @@
+body {
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 5.2rem;
+  line-height: 6.2rem;
+  text-transform: uppercase;
+  color: $color-white;
+
+  &--highlight {
+    color: $color-white;
+  }
+}
+
+.body-text {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: $color-light-gray;
+}
+
+.error-message {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $color-red;
+  display: none;
+}

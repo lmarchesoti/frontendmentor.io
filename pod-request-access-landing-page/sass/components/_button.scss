@@ -1,0 +1,16 @@
+.btn {
+  background-color: $color-green;
+  color: $color-dark-blue;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  text-transform: capitalize;
+
+  border-radius: 100px;
+  border: none;
+  padding: 0.9rem 2.7rem;
+
+  &:hover {
+    background-color: $color-light-green;
+  }
+}

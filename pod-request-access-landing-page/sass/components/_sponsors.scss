@@ -1,0 +1,36 @@
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.6rem;
+
+  height: 1.7rem;
+  padding: 0 0.6rem;
+
+  margin-bottom: 4.8rem;
+
+  filter: brightness(0) saturate(100%) invert(35%) sepia(49%) saturate(338%)
+    hue-rotate(188deg) brightness(98%) contrast(85%);
+
+  &__item {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--google-podcasts {
+      width: 73px;
+    }
+
+    &--pocket-casts {
+      width: 77px;
+    }
+  }
+
+  &__item-img {
+    max-height: 100%;
+    /* max-width: 100%; */
+  }
+}

@@ -1,0 +1,131 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #121726; }
+
+body {
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto; }
+
+.title {
+  font-weight: 300;
+  font-size: 5.2rem;
+  line-height: 6.2rem;
+  text-transform: uppercase;
+  color: white; }
+  .title--highlight {
+    color: white; }
+
+.body-text {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #c2cbe5; }
+
+.error-message {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fb3c3c;
+  display: none; }
+
+.btn {
+  background-color: #56e6af;
+  color: #121726;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  text-transform: capitalize;
+  border-radius: 100px;
+  border: none;
+  padding: 0.9rem 2.7rem; }
+  .btn:hover {
+    background-color: #b3ffe2; }
+
+.sponsors {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.6rem;
+  height: 1.7rem;
+  padding: 0 0.6rem;
+  margin-bottom: 4.8rem;
+  filter: brightness(0) saturate(100%) invert(35%) sepia(49%) saturate(338%) hue-rotate(188deg) brightness(98%) contrast(85%); }
+  .sponsors__item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .sponsors__item--google-podcasts {
+      width: 73px; }
+    .sponsors__item--pocket-casts {
+      width: 77px; }
+  .sponsors__item-img {
+    max-height: 100%;
+    /* max-width: 100%; */ }
+
+.text-input {
+  background-color: #2b334a;
+  border-radius: 100px;
+  padding: 1.4rem 3.2rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  border: none;
+  color: #c2cbe5;
+  outline: none; }
+
+.header__logo {
+  margin-bottom: 5.7rem; }
+
+.header__logo-img {
+  display: block;
+  margin: 0 auto; }
+
+.header__title {
+  color: #56e6af;
+  font-size: 2.6rem;
+  font-weight: 300;
+  line-height: 3.8rem;
+  margin-bottom: 1.6rem; }
+
+.header__body-text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 3.3rem; }
+
+.container {
+  position: relative;
+  background-color: rgba(18, 23, 38, 0.9);
+  padding: 6.2rem 2.4rem 9.4rem;
+  text-align: center; }
+  .container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-image: url("../assets/mobile/image-host.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.request-form__email-input {
+  width: 100%;
+  padding: 0.9rem 3.2rem;
+  margin-bottom: 1.6rem; }
+
+.request-form__btn {
+  width: 100%; }
