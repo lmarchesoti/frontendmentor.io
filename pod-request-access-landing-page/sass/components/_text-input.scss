@@ -9,3 +9,9 @@
   color: $color-light-gray;
   outline: none;
 }
+
+@media (max-width: $mobile-width) {
+  .text-input {
+    padding: 0.9rem 3.2rem;
+  }
+}

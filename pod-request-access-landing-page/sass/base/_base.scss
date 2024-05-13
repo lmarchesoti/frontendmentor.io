@@ -13,4 +13,47 @@ html {
 body {
   box-sizing: border-box;
   background-color: $color-dark-blue;
+
+  padding-left: 11.5vw;
+  padding-top: 10.2rem;
+
+  background-image: url('../assets/desktop/image-host.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right 13rem;
+}
+
+/* Tablet */
+@media (max-width: $tablet-width) {
+  body {
+    padding-left: 3.9rem;
+    padding-top: 5rem;
+
+    background-image: url('../assets/tablet/image-host.jpg');
+    background-position: top right;
+  }
+}
+
+/* Mobile */
+@media (max-width: $mobile-width) {
+  body {
+    padding: 6.2rem 2.4rem 0;
+
+    background-image: url('../assets/mobile/image-host.jpg');
+    background-position: top right;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+
+      height: 100vh;
+      width: 100%;
+
+      background-color: rgba($color-dark-blue, 0.9);
+    }
+  }
 }

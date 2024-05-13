@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  max-width: 50vw;
+  min-width: 63.5rem;
+  height: 50.9rem;
+  background-color: $color-dark-blue;
+  text-align: left;
+
+  padding-top: 8.8rem;
+
+  .body-text {
+    width: 44.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: $mobile-width) {
+  .card {
+    max-width: none;
+    width: 100%;
+    min-width: auto;
+
+    padding: 0;
+
+    background-color: transparent;
+    text-align: center;
+
+    .body-text {
+      width: 100%;
+    }
+  }
+}

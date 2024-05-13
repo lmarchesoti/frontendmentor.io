@@ -1,14 +1,15 @@
 .sponsors {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 53.6rem;
+  height: 2.9rem;
+
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 0.6rem;
-
-  height: 1.7rem;
-  padding: 0 0.6rem;
-
-  margin-bottom: 4.8rem;
 
   filter: brightness(0) saturate(100%) invert(35%) sepia(49%) saturate(338%)
     hue-rotate(188deg) brightness(98%) contrast(85%);
@@ -21,16 +22,37 @@
     align-items: center;
 
     &--google-podcasts {
-      width: 73px;
+      width: 12.5rem;
     }
 
     &--pocket-casts {
-      width: 77px;
+      width: 12.9rem;
     }
   }
 
   &__item-img {
     max-height: 100%;
-    /* max-width: 100%; */
+  }
+}
+
+/* Mobile */
+@media (max-width: $mobile-width) {
+  .sponsors {
+    position: relative;
+    max-width: 100%;
+    height: 1.7rem;
+
+    padding: 0 0.6rem;
+    margin-bottom: 4.8rem;
+
+    &__item {
+      &--google-podcasts {
+        width: 7.3rem;
+      }
+
+      &--pocket-casts {
+        width: 7.7rem;
+      }
+    }
   }
 }

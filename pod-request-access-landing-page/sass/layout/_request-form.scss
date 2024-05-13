@@ -1,9 +1,41 @@
-.request-form__email-input {
-  width: 100%;
-  padding: 0.9rem 3.2rem;
-  margin-bottom: 1.6rem;
+.request-form {
+  width: 42.7rem;
+  margin-bottom: 6.4rem;
+
+  position: relative;
+
+  .text-input {
+    width: 100%;
+  }
+
+  .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-0.5rem, 0.5rem);
+  }
+
+  [class^='error-message'] {
+    position: absolute;
+    left: 3.2rem;
+    bottom: -0.8rem;
+    transform: translateY(100%);
+  }
 }
 
-.request-form__btn {
-  width: 100%;
+/* Mobile */
+@media (max-width: $mobile-width) {
+  .request-form {
+    width: 100%;
+
+    .text-input {
+      margin-bottom: 1.6rem;
+    }
+
+    .btn {
+      position: relative;
+      width: 100%;
+      transform: translate(0, 0);
+    }
+  }
 }

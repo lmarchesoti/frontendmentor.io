@@ -38,12 +38,9 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS
-- SCSS
-- JavaScript
-- Flexbox
-- Mobile-first workflow
+- Sass
 - BEM
+- JavaScript
 
 ## Author
 
