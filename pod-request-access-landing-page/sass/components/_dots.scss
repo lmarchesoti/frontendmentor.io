@@ -1,0 +1,26 @@
+.dots {
+  &__image {
+    display: block;
+    float: right;
+    transform: translateY(-50%);
+  }
+}
+
+/* Tablet */
+@media (max-width: $tablet-width) {
+  .dots {
+    position: fixed;
+    bottom: 0;
+    &__image {
+      float: none;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: $mobile-width) {
+  .dots {
+    display: none;
+  }
+}

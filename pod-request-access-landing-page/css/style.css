@@ -104,6 +104,25 @@ body {
     background-color: #b3ffe2;
     cursor: pointer; }
 
+.dots__image {
+  display: block;
+  float: right;
+  transform: translateY(-50%); }
+
+/* Tablet */
+@media (max-width: 81em) {
+  .dots {
+    position: fixed;
+    bottom: 0; }
+    .dots__image {
+      float: none;
+      transform: translateY(0); } }
+
+/* Mobile */
+@media (max-width: 43em) {
+  .dots {
+    display: none; } }
+
 .sponsors {
   position: absolute;
   left: 0;
