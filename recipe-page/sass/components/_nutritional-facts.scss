@@ -1,0 +1,30 @@
+.nutritional-facts {
+  width: 100%;
+  border-collapse: collapse;
+
+  &__row {
+    td {
+      padding: 1.2rem 3.2rem;
+    }
+
+    &:not(:last-child) {
+      border-bottom: 1px solid $color-neutral-lightgrey;
+    }
+
+    &:first-child {
+      td {
+        padding-top: 0;
+      }
+    }
+
+    &:last-child {
+      td {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &__value {
+    color: $color-primary-nutmeg;
+  }
+}

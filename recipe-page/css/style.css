@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #f3e6d8; }
+
+.heading-primary {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: #302d2c;
+  margin-bottom: 2.4rem; }
+
+.heading-secondary {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.8rem;
+  color: #854632;
+  margin-bottom: 2.4rem; }
+
+.heading-tertiary {
+  font-weight: 600;
+  font-size: 2rem;
+  color: #7b284f;
+  margin-bottom: 1.6rem; }
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #5f574e; }
+
+p {
+  margin-bottom: 2.4rem; }
+
+strong {
+  font-weight: 700; }
+
+li {
+  margin-left: 1.6rem;
+  padding-left: 2rem;
+  margin-bottom: 0.8rem; }
+
+li::marker {
+  font-weight: 700;
+  color: #854632; }
+
+@media (max-width: 30em) {
+  .heading-primary {
+    font-size: 3.6rem; } }
+
+.bullet-list li::marker {
+  font-size: 1.2rem; }
+
+.number-list li {
+  margin-left: 2.5rem; }
+
+.nutritional-facts {
+  width: 100%;
+  border-collapse: collapse; }
+  .nutritional-facts__row td {
+    padding: 1.2rem 3.2rem; }
+  .nutritional-facts__row:not(:last-child) {
+    border-bottom: 1px solid #e4ded8; }
+  .nutritional-facts__row:first-child td {
+    padding-top: 0; }
+  .nutritional-facts__row:last-child td {
+    padding-bottom: 0; }
+  .nutritional-facts__value {
+    color: #854632; }
+
+.prep-time {
+  margin: 3.2rem auto;
+  padding: 2.8rem;
+  border-radius: 12px;
+  background-color: #fff5fa; }
+  .prep-time li::marker {
+    color: #7b284f; }
+
+.separator {
+  margin: 3.2rem 0;
+  height: 1px;
+  background-color: #e4ded8;
+  color: #e4ded8;
+  border: none; }
+
+.recipe {
+  width: 51vw;
+  min-width: 420px;
+  margin: 8.5vw auto;
+  border-radius: 24px;
+  padding: 4rem;
+  background-color: white; }
+  .recipe__hero {
+    margin-bottom: 4rem; }
+  .recipe__hero-img {
+    width: 100%;
+    border-radius: 12px; }
+
+@media (max-width: 30em) {
+  .recipe {
+    width: 100%;
+    min-width: auto;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0; }
+    .recipe__hero {
+      margin: 0; }
+    .recipe__hero-img {
+      border-radius: 0; }
+    .recipe__content {
+      padding: 4rem 3.2rem; } }

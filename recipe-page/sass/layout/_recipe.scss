@@ -1,0 +1,40 @@
+.recipe {
+  width: 51vw;
+  min-width: 420px;
+  margin: 8.5vw auto;
+  border-radius: 24px;
+  padding: 4rem;
+  background-color: $color-neutral-white;
+
+  &__hero {
+    margin-bottom: 4rem;
+  }
+
+  &__hero-img {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
+
+// Mobile
+@media (max-width: $mobile-width) {
+  .recipe {
+    width: 100%;
+    min-width: auto;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+
+    &__hero {
+      margin: 0;
+    }
+
+    &__hero-img {
+      border-radius: 0;
+    }
+
+    &__content {
+      padding: 4rem 3.2rem;
+    }
+  }
+}

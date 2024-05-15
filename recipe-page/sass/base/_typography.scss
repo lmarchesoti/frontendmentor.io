@@ -1,0 +1,62 @@
+.heading-primary {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  color: $color-neutral-darkcharcoal;
+
+  margin-bottom: 2.4rem;
+}
+
+.heading-secondary {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.8rem;
+  color: $color-primary-nutmeg;
+
+  margin-bottom: 2.4rem;
+}
+
+.heading-tertiary {
+  font-weight: 600;
+  font-size: 2rem;
+  color: $color-primary-darkraspberry;
+  margin-bottom: 1.6rem;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: $color-neutral-wengebrown;
+}
+
+p {
+  margin-bottom: 2.4rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+li {
+  margin-left: 1.6rem;
+  padding-left: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+li::marker {
+  font-weight: 700;
+  color: $color-primary-nutmeg;
+}
+
+// Mobile
+@media (max-width: $mobile-width) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+}

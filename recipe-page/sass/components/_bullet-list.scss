@@ -1,0 +1,5 @@
+.bullet-list {
+  & li::marker {
+    font-size: 1.2rem;
+  }
+}

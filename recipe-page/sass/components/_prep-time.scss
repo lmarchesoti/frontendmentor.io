@@ -1,0 +1,10 @@
+.prep-time {
+  margin: 3.2rem auto;
+  padding: 2.8rem;
+  border-radius: 12px;
+  background-color: $color-neutral-rosewhite;
+
+  & li::marker {
+    color: $color-primary-darkraspberry;
+  }
+}
