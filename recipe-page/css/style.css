@@ -17,6 +17,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 4rem;
+  line-height: 1;
   color: #302d2c;
   margin-bottom: 2.4rem; }
 
@@ -25,12 +26,14 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 2.8rem;
+  line-height: 1;
   color: #854632;
   margin-bottom: 2.4rem; }
 
 .heading-tertiary {
   font-weight: 600;
   font-size: 2rem;
+  line-height: 1;
   color: #7b284f;
   margin-bottom: 1.6rem; }
 
@@ -40,7 +43,6 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1.6rem;
-  line-height: 1.5;
   color: #5f574e; }
 
 p {
