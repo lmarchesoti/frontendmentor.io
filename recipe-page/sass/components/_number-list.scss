@@ -1,3 +1,7 @@
-.number-list li {
-  margin-left: 2.5rem;
+.number-list {
+  @include list-items;
+
+  li {
+    margin-left: 2.5rem;
+  }
 }

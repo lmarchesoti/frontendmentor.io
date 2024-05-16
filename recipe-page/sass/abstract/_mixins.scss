@@ -1,0 +1,16 @@
+@mixin list-items {
+  li {
+    margin-left: 1.6rem;
+    padding-left: 2rem;
+    margin-bottom: 0.8rem;
+
+    strong {
+      font-weight: 700;
+    }
+  }
+
+  li::marker {
+    font-weight: 700;
+    color: $color-primary-nutmeg;
+  }
+}

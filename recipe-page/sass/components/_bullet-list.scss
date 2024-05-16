@@ -1,4 +1,6 @@
 .bullet-list {
+  @include list-items;
+
   & li::marker {
     font-size: 1.2rem;
   }

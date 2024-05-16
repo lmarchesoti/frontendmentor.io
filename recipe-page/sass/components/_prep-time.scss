@@ -7,4 +7,11 @@
   & li::marker {
     color: $color-primary-darkraspberry;
   }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 2rem;
+    color: $color-primary-darkraspberry;
+    margin-bottom: 1.6rem;
+  }
 }

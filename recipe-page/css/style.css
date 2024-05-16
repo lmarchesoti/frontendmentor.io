@@ -12,31 +12,6 @@ body {
   box-sizing: border-box;
   background-color: #f3e6d8; }
 
-.heading-primary {
-  font-family: 'Young Serif', serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 4rem;
-  line-height: 1;
-  color: #302d2c;
-  margin-bottom: 2.4rem; }
-
-.heading-secondary {
-  font-family: 'Young Serif', serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 2.8rem;
-  line-height: 1;
-  color: #854632;
-  margin-bottom: 2.4rem; }
-
-.heading-tertiary {
-  font-weight: 600;
-  font-size: 2rem;
-  line-height: 1;
-  color: #7b284f;
-  margin-bottom: 1.6rem; }
-
 body {
   font-family: 'Outfit', sans-serif;
   font-optical-sizing: auto;
@@ -46,27 +21,50 @@ body {
   line-height: 1.5;
   color: #5f574e; }
 
+.heading {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  margin-bottom: 2.4rem; }
+  .heading--primary {
+    font-size: 4rem;
+    color: #302d2c; }
+  .heading--secondary {
+    font-size: 2.8rem;
+    color: #854632; }
+
 p {
   margin-bottom: 2.4rem; }
 
-strong {
-  font-weight: 700; }
+@media (max-width: 30em) {
+  .heading--primary {
+    font-size: 3.6rem; } }
 
-li {
+.bullet-list li {
   margin-left: 1.6rem;
   padding-left: 2rem;
   margin-bottom: 0.8rem; }
+  .bullet-list li strong {
+    font-weight: 700; }
 
-li::marker {
+.bullet-list li::marker {
   font-weight: 700;
   color: #854632; }
 
-@media (max-width: 30em) {
-  .heading-primary {
-    font-size: 3.6rem; } }
-
 .bullet-list li::marker {
   font-size: 1.2rem; }
+
+.number-list li {
+  margin-left: 1.6rem;
+  padding-left: 2rem;
+  margin-bottom: 0.8rem; }
+  .number-list li strong {
+    font-weight: 700; }
+
+.number-list li::marker {
+  font-weight: 700;
+  color: #854632; }
 
 .number-list li {
   margin-left: 2.5rem; }
@@ -92,6 +90,11 @@ li::marker {
   background-color: #fff5fa; }
   .prep-time li::marker {
     color: #7b284f; }
+  .prep-time__heading {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #7b284f;
+    margin-bottom: 1.6rem; }
 
 .separator {
   margin: 3.2rem 0;
