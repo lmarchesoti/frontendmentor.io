@@ -1,0 +1,145 @@
+/* ### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%) 
+*/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+
+  font-family: 'Figtree', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.5;
+
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  margin: 15.2vw auto;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2.4rem;
+  border-radius: 2rem;
+  width: 38.4rem;
+
+  border: 1px solid black;
+  box-shadow: 1.6rem 1.6rem 0 black;
+}
+
+.card__hero {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card__hero-img {
+  display: inline-block;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+.pill {
+  padding: 0.4rem 1.2rem;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  border-radius: 0.4rem;
+  font-weight: 800;
+}
+
+.heading--primary {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.heading--primary:hover,
+.heading--primary:active {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  color: hsl(0, 0%, 7%);
+}
+
+.card__publish-date {
+  color: hsl(0, 0%, 7%);
+}
+
+.card__summary {
+  color: hsl(0, 0%, 50%);
+}
+
+.card__author-img {
+  display: inline-block;
+  width: 3.2rem;
+}
+
+.card__author-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+/* Utilities */
+.margin-bottom-medium {
+  margin-bottom: 2.4rem;
+}
+
+.body-text-small {
+  font-size: 1.4rem;
+}
+
+.body-text-medium {
+  font-size: 1.6rem;
+}
+
+/* Mobile (512px) */
+@media (max-width: 32em) {
+  .card {
+    width: 32.7rem;
+    box-shadow: 0.8rem 0.8rem 0 black;
+  }
+
+  .heading--primary {
+    font-size: 2rem;
+  }
+
+  .body-text-small {
+    font-size: 1.2rem;
+  }
+
+  .body-text-medium {
+    font-size: 1.4rem;
+  }
+}
+
+/* Small Mobile (352px) */
+@media (max-width: 22em) {
+  .card {
+    width: 30rem;
+  }
+}
