@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/](https://www.frontendmentor.io/solutions/)
+- Solution URL: [https://www.frontendmentor.io/solutions/blog-preview-card-nEqqw-ttHo](https://www.frontendmentor.io/solutions/blog-preview-card-nEqqw-ttHo)
 - Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/blog-preview-card/](https://lmarchesoti.github.io/frontendmentor.io/blog-preview-card/)
 
 ## My process
