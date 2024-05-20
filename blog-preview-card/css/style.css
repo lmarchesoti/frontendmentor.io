@@ -130,7 +130,6 @@ body {
 @media (max-width: 32em) {
   .card {
     width: 32.7rem;
-    box-shadow: 0.8rem 0.8rem 0 black;
   }
 
   .heading--primary {
