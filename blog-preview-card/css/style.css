@@ -58,7 +58,7 @@ body {
 }
 
 .card__hero-img {
-  display: inline-block;
+  display: block;
 }
 
 .card__content {
