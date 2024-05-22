@@ -110,9 +110,6 @@ button {
 }
 
 /* Faq */
-.faq {
-}
-
 .faq__question {
   display: flex;
   flex-direction: row;
