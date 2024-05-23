@@ -1,0 +1,58 @@
+.input-box {
+  position: relative;
+
+  input {
+    border: 1px solid $color-grey;
+    width: 100%;
+    padding: 1.5rem 3.2rem;
+    border-radius: 5px;
+
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.25px;
+    font-weight: 600;
+
+    color: $color-black;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $color-black;
+    }
+  }
+
+  &__error-message {
+    color: $color-primary;
+    font-size: 1.1rem;
+    line-height: auto;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+
+    margin-top: 0.6rem;
+
+    display: none;
+  }
+
+  &__error-icon {
+    position: absolute;
+    right: 3.2rem;
+    top: 1.6rem;
+
+    display: none;
+  }
+
+  &.input-error {
+    input {
+      color: $color-primary;
+      border: 2px solid $color-primary;
+    }
+
+    .error-display {
+      display: block;
+    }
+
+    .error-icon {
+      display: block;
+    }
+  }
+}

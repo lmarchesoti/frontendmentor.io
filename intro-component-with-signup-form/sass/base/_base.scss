@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+
+  background-image: url('../images/bg-intro-desktop.png');
+  background-color: $color-primary;
+
+  padding: 12.1rem 16.5rem 0;
+}
+
+button {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
+
+input {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
