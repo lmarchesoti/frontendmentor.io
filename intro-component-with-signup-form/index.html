@@ -56,7 +56,7 @@
 
         <form action="" class="form-trial">
           <div class="form-trial__items u-margin-bottom-tiny">
-            <div class="input-box input-error" id="input-first-name">
+            <div class="input-box" id="input-first-name">
               <input
                 type="text"
                 name="first-name"
@@ -68,9 +68,7 @@
                 src="images/icon-error.svg"
                 alt="Error icon"
               />
-              <p class="input-box__error-message error-display">
-                First Name cannot be empty
-              </p>
+              <p class="input-box__error-message"></p>
             </div>
 
             <div class="input-box" id="input-last-name">
@@ -85,7 +83,7 @@
                 src="images/icon-error.svg"
                 alt="Error icon"
               />
-              <p class="input-box__error-message">Last Name cannot be empty</p>
+              <p class="input-box__error-message"></p>
             </div>
 
             <div class="input-box" id="input-email-address">
@@ -100,17 +98,12 @@
                 src="images/icon-error.svg"
                 alt="Error icon"
               />
-              <p class="input-box__error-message" id="error-email-empty">
-                Email Address cannot be empty
-              </p>
-              <p class="input-box__error-message" id="error-email-invalid">
-                Looks like this is not an email
-              </p>
+              <p class="input-box__error-message"></p>
             </div>
 
             <div class="input-box" id="input-password">
               <input
-                type="text"
+                type="password"
                 name="password"
                 placeholder="Password"
                 class="input"
@@ -120,15 +113,15 @@
                 src="images/icon-error.svg"
                 alt="Error icon"
               />
-              <p class="input-box__error-message">Password cannot be empty</p>
+              <p class="input-box__error-message"></p>
             </div>
 
-            <button class="btn">Claim your free trial</button>
+            <button class="form-trial__btn btn">Claim your free trial</button>
           </div>
 
           <p class="text-disclaimer">
             By clicking the button, you are agreeing to our
-            <span class="text-terms">Terms and Services</span>
+            <a href="#" class="text-terms">Terms and Services</a>
           </p>
         </form>
       </div>

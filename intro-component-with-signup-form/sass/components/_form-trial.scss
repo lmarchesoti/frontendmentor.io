@@ -11,3 +11,13 @@
     gap: 2rem;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .form-trial {
+    padding: 2.4rem;
+
+    &__items {
+      gap: 1.6rem;
+    }
+  }
+}

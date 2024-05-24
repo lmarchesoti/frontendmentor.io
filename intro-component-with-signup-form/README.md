@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/faq-accordion--0yXaLm5Ba](https://www.frontendmentor.io/solutions/faq-accordion--0yXaLm5Ba)
-- Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/faq-accordion/](https://lmarchesoti.github.io/frontendmentor.io/faq-accordion/)
+- Solution URL: [https://www.frontendmentor.io/solutions/intro-component-with-signup-form-](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-)
+- Live Site URL: [https://lmarchesoti.github.io/frontendmentor.io/intro-component-with-signup-form/](https://lmarchesoti.github.io/frontendmentor.io/intro-component-with-signup-form/)
 
 ## My process
 

@@ -17,7 +17,10 @@
   line-height: 2.6rem;
   letter-spacing: 1px;
 
+  transition: all 0.2s;
+
   &:hover {
     background-color: $color-secondary-light;
+    transform: translateY(-2px);
   }
 }

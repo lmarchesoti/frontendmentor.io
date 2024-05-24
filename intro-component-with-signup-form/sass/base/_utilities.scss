@@ -15,5 +15,11 @@
 }
 
 .hidden {
-  display: none !important;
+  display: none;
+}
+
+@media (max-width: $mobile-width) {
+  .u-margin-bottom-small {
+    margin-bottom: 1.6rem;
+  }
 }
